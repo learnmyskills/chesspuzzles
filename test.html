@@ -1,7 +1,7 @@
 <html>
 <script type="text/javascript">
 function init(){
-  console.log(document.getElementById("chess").contentWindow.document.getElementById("points"));
+  console.log(document.getElementById("chess").contentWindow.document.getElementById("points").value);
 }
 </script>
 <body >
@@ -9,7 +9,7 @@ function init(){
   <button onclick="init()">
       Submit Points  competition 
     </button> <br>
-<iframe id="chess" src="https://learnmyskills.github.io/chesspuzzles/"  height="AUTO" width="AUTO" style="border:1px solid black;" >
+<iframe id="chess" src="https://learnmyskills.github.io/chesspuzzles/"   style="width: 100%;border:1px solid black;" >
 </iframe>
 </body>
 </html>
