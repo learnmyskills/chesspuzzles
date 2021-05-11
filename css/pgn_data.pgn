@@ -1,0 +1,37 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2014.05.19"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "r3kb1r/pbppq1pp/1pn1pN2/4N3/5P2/3B4/PPP3PP/R1BQ1RK1 b kq -"]
+[FirstMove "10b"]
+[FULL "10. ... Qxf6 11. Bg6+ hxg6 12. Qxd7#"]
+[MOVES "Mate2"]
+[PlyCount "4"]
+[PUZZLE_TYPE "checkmate"]
+[SetUp "1"]
+[START_SCORE "Mat02"]
+[START_SCORE_DIFFERENCE "Mat02"]
+
+ 10.     ...    Qxf6
+			({24:Mat02} 10. ... Qxf6 11. Bg6+ hxg6 12. Qxd7#  $18)
+			({24:3.95} 10. ... gxf6 11. Qh5+ Kd8 12. Nf7+ Kc8 13. Nxh8 Nb4 14. Qxh7  $18)
+			({24:6.63} 10. ... Kd8 11. Nfxd7 Nxe5 12. Nxe5 Kc8 13. Be3 Qe8 14. a4  $18)
+ 11.    Bg6+
+			({24:Mat02} 11. Bg6+ hxg6 12. Qxd7#  $18)
+			({24:-0.89} 11. Qe2 Bd6 12. Nc4 Bc5+ 13. Be3 Bxe3+ 14. Qxe3 O-O-O  $17)
+			({24:-0.95} 11. Bd2 Nxe5 12. Bc3 Bc5+ 13. Kh1 Qe7 14. Bxe5 O-O-O  $17)
+			({24:-1.04} 11. Be4 O-O-O 12. Qe2 Bc5+ 13. Kh1 Rhf8 14. Bd2 Nxe5  $17)
+ 11.     ...    hxg6
+			({24:Mat01} 11. ... hxg6 12. Qxd7#  $18)
+			({24:Mat01} 11. ... Kd8 12. Qxd7#  $18)
+			({24:Mat01} 11. ... Ke7 12. Qxd7#  $18)
+			({24:Mat01} 11. ... Qxg6 12. Qxd7#  $18)
+ 12.   Qxd7#
+			({24:Mat01} 12. Qxd7#  $18)
+			({24:-6.49} 12. Ng4 Bc5+ 13. Be3 Bxe3+ 14. Nxe3 Qxb2 15. Rb1 Qd4  $19)
+			({24:-7.6} 12. Nd3 Nb4 13. Rf2 Qh4 14. h3 O-O-O 15. Qe2 Nxd3  $19)
+			({24:-7.81} 12. Be3 Nxe5 13. fxe5 Qxe5 14. Rxf8+ Kxf8 15. Qf1+ Kg8  $19)
+ 1-0
