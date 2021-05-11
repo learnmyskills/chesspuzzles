@@ -1,14 +1,24 @@
 <html>
 <script type="text/javascript">
 function init(){
-  console.log(document.getElementById("chess").contentWindow.document.getElementById("points"));
+  Button b =document.getElementById("chess").contentWindow.document.getElementById("points");
+   $('#status').html(b.value);
 }
 </script>
 <body >
   <div>
    <button class="btn btn-success" id="points" onclick="init()">Submit Results to Admin</button>   
   </div>
-  <div>
+  <div class="card">
+                                <div class="card-header" id="compVsCompHeading">
+                                    <h4 class="text-align-center">
+                                        <button class="btn btn-header no-outline" aria-controls="compVsComp">
+                                          <h4></h4>
+                                <p><span id="status"> </span></p></button>
+                                    </h4>
+                                </div>
+                            </div>
+    
   <iframe id="chess" src="https://learnmyskills.github.io/chesspuzzles/"   frameborder="10" style="overflow: hidden; height: 80%;width: 100%; position: absolute;" >
 </iframe>
   </div>                       
