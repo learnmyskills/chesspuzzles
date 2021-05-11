@@ -1,10 +1,36 @@
 <html>
+  <head>
+     <!-- Bootstrap CSS -->
+        <link rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+            crossorigin="anonymous">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- Google Icons (Material Design) -->
+        <link rel="stylesheet" 
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            crossorigin="anonymous">
+
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/5b14db5f0b.js" crossorigin="anonymous"></script>
+
+        <!-- jQuery --> 
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous">
+        </script>
 <script type="text/javascript">
 function init(){
   var b=document.getElementById("chess").contentWindow.document.getElementById("points");
    $('#status').html(b.value);
 }
 </script>
+    
+  </head>   
 <body >
   <div>
    <button class="btn btn-success" id="points" onclick="init()">Submit Results to Admin</button>   
