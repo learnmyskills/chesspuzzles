@@ -205,7 +205,9 @@ function makeBestMove(color) {
 		   $('#status').html(" Great . You have solved the Puzzle"); 
 	 }	 
 		 $('#score').html("Puzzles: "+solved);
-		$('#points').html("points: "+tpoints);
+		$('#points').html("Points: "+tpoints);
+	        $('#finalscore').html(tpoints);
+	    
 	
 }
 	
@@ -310,6 +312,7 @@ return game.undo();
 		points=5;
 	       	 $('#score').html("Puzzles: "+solved);
 		$('#points').html("points: "+tpoints);
+		 $('#finalscore').html(tpoints);
 if(positions.length-1===currPos){
 $('#status').html(" No more puzzles left.Come back tomorrow for more interesting puzzles");
 } else{
