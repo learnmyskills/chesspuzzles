@@ -1,11 +1,11 @@
 <html>
 <script type="text/javascript">
 function init(){
-  console.log(document.getElementById("chess").contentWindow.document.getElementById("finalscore").value);
+  console.log(document.getElementById("chess").contentWindow.document.getElementById("points").value);
 }
 </script>
 <body >
-  <iframe id="chess" src="https://learnmyskills.github.io/chesspuzzles/"   style="heght: 100%;width: 100%;border:1px solid black;" >
+  <iframe id="chess" src="https://learnmyskills.github.io/chesspuzzles/"   frameborder="0" style="overflow: hidden; height: 100%;width: 100%; position: absolute;" >
 </iframe>
   <button onclick="init()">
       Submit Points  competition 
