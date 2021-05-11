@@ -206,7 +206,7 @@ function makeBestMove(color) {
 	 }	 
 		 $('#score').html("Puzzles: "+solved);
 		$('#points').html("Points: "+tpoints);
-	        $('#final').html(tpoints);
+	        $('#final').value=tpoints;
 	    
 	
 }
@@ -312,7 +312,7 @@ return game.undo();
 		points=5;
 	       	 $('#score').html("Puzzles: "+solved);
 		$('#points').html("points: "+tpoints);
-		 $('#final').html(tpoints);
+		$('#final').value=tpoints
 if(positions.length-1===currPos){
 $('#status').html(" No more puzzles left.Come back tomorrow for more interesting puzzles");
 } else{
